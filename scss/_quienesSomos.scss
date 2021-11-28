@@ -1,0 +1,50 @@
+
+.q-s-tittle{
+    h1 {
+        text-transform: uppercase;
+        color: $color1;
+        
+    }
+
+
+
+}
+
+.q-s-container {
+    
+    .wave {
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+        top: 2px;
+    }
+
+    .q-s-body {
+        background-color: $color2;
+        div{
+            div{
+                strong {
+                    color: $color4;
+                    text-transform: uppercase;
+                }
+
+                h2 {
+                    color: $color5;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                }
+
+                p {
+                    color: $color5;
+                    
+                }
+            }
+        }
+    }
+
+    .wave-bottom {
+        top: -2px;
+    }
+
+}

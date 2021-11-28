@@ -1,0 +1,19 @@
+header {
+    background-color: $color1;
+    .navbar {
+        background-color: $color1;
+
+        .nav-link {
+            text-transform: uppercase;
+        }    
+        
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .nav-link:hover {
+        background-color: $color3;
+    }
+}

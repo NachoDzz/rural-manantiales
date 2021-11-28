@@ -1,0 +1,63 @@
+
+body {
+    background-color: $color5;
+}
+
+.homeMain {
+    .homeSection {
+        .button-div {
+            .btn-home {
+                .btn-link {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.btn-link {
+    color: $color5;
+    text-decoration: none !important;
+}
+
+.btn-link:hover {
+    background-color: $color3;
+    color: $color5;
+    transition: 0.4s;
+}
+
+
+.container-bg1 {
+
+    background: $color4 url(../img/fondo1rec2.jpg) no-repeat center / 100% 100% ;
+    width: 100%;
+    height: 400px;
+
+    
+        .texto-bg1{
+            padding-top: 50px;
+            overflow: hidden;
+
+            .titulo-bg-1{
+                color: $color5;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-shadow: 3px 5px 5px black
+                
+            }
+            
+
+            .parrafo-bg1 {
+                color: $color5;
+                padding-top: 0px;
+                text-decoration: underline;
+                text-shadow: 3px 5px 5px black;
+            }
+        }
+    }
+
+
+.div-apoyo {
+    width: 100%;
+    height: 84px;
+}

@@ -1,0 +1,42 @@
+@import "variables";
+@import "colores";
+@import "navbar";
+@import "title";
+@import "home";
+@import "quienesSomos";
+@import "producto";
+@import "servicios";
+@import "each";
+@import "error404";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.line {
+    background: $color1;
+    position: absolute;
+    height: 2px;
+    display: block;
+    width: 90px;
+    margin-top: 12px;
+    margin-left: 5px;
+}

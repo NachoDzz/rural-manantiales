@@ -1,0 +1,25 @@
+.container-servicio {
+    .section-servicio{
+        .item-servicio{
+            height: 170px;; 
+            width: 200px;
+            margin: 30px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            .item-servicio--icon {
+                font-size: 80px;
+                padding-top: 0;
+                margin-top: 0;
+                text-align: center;
+                height: 120px;
+                cursor: pointer;
+            }
+
+            .item-servicio--icon:hover {
+                font-size: 100px;
+                transition: 0.4s;
+        }
+    }
+}}
+
+

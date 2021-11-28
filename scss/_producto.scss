@@ -1,0 +1,77 @@
+.p-h1 {
+  .p-tittle {
+    h1 {
+      text-transform: uppercase;
+      color: $color1;
+      padding-left: 50px;
+
+
+    }
+  }
+}
+
+.container-producto {
+  .section-producto {
+    .item-producto {
+      width: 300px;
+      height: 230px;
+      margin-top: 0;
+      margin-bottom: 50px;
+      padding: 0;
+      padding-top: 0;
+
+      .title-producto {
+          text-transform: uppercase;
+          height: auto;
+          
+          width: 100%;
+          margin: auto;
+          padding-left: 10px;
+          font-weight: bold;
+          line-height: 50px;
+          color: $color1;
+          cursor: pointer;
+
+      }
+
+      .title-producto:hover {
+          background-color: $color1;
+          color: $color3;
+          transition: 0.4s;
+
+      }
+
+    }
+
+    .item-producto--1 {
+      background: url(../img/tabla2p.jpg) no-repeat;
+    }
+
+    .item-producto--2 {
+      background: url(../img/placasP.jpg);
+    }
+
+    .item-producto--3 {
+      background: url(../img/muebleP.jpg);
+    }
+
+    .item-producto--4 {
+      background: url(../img/protectoresP.jpg);
+    }
+    .item-producto--5 {
+      background: url(../img/puertasP.jpg);
+    }
+    .item-producto--6 {
+      background: url(../img/vigasP.jpg);
+    }
+    .item-producto--7 {
+      background: url(../img/machimbreP.jpg);
+    }
+    .item-producto--8 {
+      background: url(../img/molduraP.jpg);
+    }
+    .item-producto--9 {
+      background: url(../img/puertasP.jpg);
+    }
+  }
+}
