@@ -208,7 +208,8 @@ body {
   margin: 0; }
 
 html {
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 body {
   overflow-y: auto;
@@ -216,6 +217,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
+
+.porfa-funca {
+  overflow-x: hidden;
+  position: relative; }
 
 footer {
   margin-top: auto; }
