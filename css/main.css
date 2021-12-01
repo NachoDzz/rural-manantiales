@@ -216,10 +216,19 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; }
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif; }
 
 footer {
   margin-top: auto; }
+  footer .footer-datos {
+    text-transform: uppercase; }
+    footer .footer-datos a {
+      text-decoration: none;
+      color: #ada876; }
+    footer .footer-datos a:hover {
+      color: #615a3b;
+      transition: 0.4s; }
 
 .line {
   background: #150d00;

@@ -26,11 +26,24 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
     margin-top: auto;
+    .footer-datos{
+        text-transform: uppercase;
+        a {
+            text-decoration: none;
+            color: $color5;
+        }
+
+        a:hover {
+            color: $color3;
+            transition: 0.4s;
+        }
+    }    
+
 }
 
 .line {
@@ -42,3 +55,5 @@ footer {
     margin-top: 12px;
     margin-left: 5px;
 }
+
+
