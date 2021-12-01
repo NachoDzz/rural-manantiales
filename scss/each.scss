@@ -1,8 +1,8 @@
 
-$titles: 10, 15, 20, 25;
+$titles: 0.8, 1, 2, 3;
 
 @each $size in $titles {
     .title-#{$size}  {
-        font-size: $size * 1px;
+        font-size: $size * 1rem;
     }
 }

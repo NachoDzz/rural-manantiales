@@ -164,17 +164,17 @@ body {
     font-size: 100px;
     transition: 0.4s; }
 
-.title-10 {
-  font-size: 10px; }
+.title-0.8 {
+  font-size: 0.8rem; }
 
-.title-15 {
-  font-size: 15px; }
+.title-1 {
+  font-size: 1rem; }
 
-.title-20 {
-  font-size: 20px; }
+.title-2 {
+  font-size: 2rem; }
 
-.title-25 {
-  font-size: 25px; }
+.title-3 {
+  font-size: 3rem; }
 
 .container-error {
   background-color: #97845e;
