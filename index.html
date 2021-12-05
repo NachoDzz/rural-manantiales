@@ -9,6 +9,7 @@
   <meta name="descrpition"
     content="Líderes en estructuras de madera para su vivienda, Pisos de Madera, Pisos flotantes, Decks, Escaleras y Revestimientos de Madera.">
   <title>rural manantiales</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,7 @@
     <!-- HEADER NAV ------------->
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="w-50 mt-3" src="img/logoRec.png" alt="logo" /></a>
+        <a class="navbar-brand" href="index.html"><img class="w-50 mt-3" data-aos="zoom-in" data-aos-duration="800"  src="img/logoRec.png" alt="logo" /></a>
         <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
@@ -98,14 +99,14 @@
   <!-- portada -------------->
   <main class="container-fluid px-0 homeMain">
     <section class="row px-0 homeSection">
-      <div class="col-12 col-lg-6 ">
+      <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="800">
         <img src="img/pencil-on-woodwork-carpentry-workshop-table-1141695735-40a89f010c804f0b9f205fb9b1615640.jpg"
           alt="mesa de trabajo" class="img-fluid mt-3 mesaTrabajo" />
       </div>
 
-      <div class="text-center py-3 col-12 col-lg-6 order-lg-first">
-        <h1 class="c-oscuro">Rural Manantiales</h1>
-        <p class="pt-5 ms-3 c-oscuro text-lg-start">
+      <div class="texto-index text-center py-3 col-12 col-lg-6 order-lg-first " data-aos="fade-right" data-aos-delay="50" data-aos-duration="800">
+        <h1 class="c-oscuro fw-bold text-uppercase">Rural Manantiales</h1>
+        <p class="parrafo-index c-oscuro ms-4 mt-4 text-lg-start" >
           Aserradero rural manantiales, es una firma
           que, desde sus orígenes, tiene una destacada presencia en el mercado
           de su competencia. Debido al alto grado de especialización
@@ -118,7 +119,7 @@
       </div>
 
       <div class="d-flex justify-content-center button-div">
-        <button type="button" class="btn bg-oscuro c-claro my-3 p-3 btn-home"> <a class="btn-link p-2 rounded"
+        <button type="button" class="btn bg-oscuro c-claro my-3 p-3 btn-home" data-aos="zoom-in" data-aos-duration="800"> <a class="btn-link p-2 rounded"
             href="quienesSomos.html">Conózcanos</a></button>
       </div>
     </section>
@@ -150,6 +151,11 @@
 
   </footer>
   <script src="js/bootstrap.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

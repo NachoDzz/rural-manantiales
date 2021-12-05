@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>rural manantiales Contactanos</title>
   <meta name="keywords" content="madera, maderas, aserradero, pino, muebles, maderera, email, empresa, contacto ">
   <meta name="descrpition"
     content="Líderes en estructuras de madera para su vivienda, Pisos de Madera, Pisos flotantes, Decks, Escaleras y Revestimientos de Madera, contactanos y resolveremos tus dudas.">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>  
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +17,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="body-contacto">
   <header class="fixed-top">
     <!-- HEADER NAV ------------->
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="w-50" src="img/logoRec.png" alt="logo" /></a>
+        <a class="navbar-brand" href="index.html"><img class="w-50" data-aos="zoom-in" src="img/logoRec.png" alt="logo" /></a>
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
@@ -63,19 +64,20 @@
 
   <div>
     <div class="row title-h1 align-items-center justify-content-center m-auto px-auto ">
-      <div class="tittle col-lg-6 col-12 mx-auto px-auto">
+      <div class="tittle col-lg-6 col-12 mx-auto px-auto" data-aos="fade-right" data-aos-duration="800"  data-aos-delay="50">
         <h1 class="mt-3 ms-2 fw-bold"> contacto
           <span class="line"></span>
         </h1>
       </div>
 
-      <div class="col-lg-6 col-12 pt-5 mt-5 q-s-div d-flex justify-content-center">
+      <div class="col-lg-6 col-12 pt-5 mt-5 q-s-div d-flex justify-content-center" data-aos="zoom-in">
         <img src="img/logo.png" alt="logo">
       </div>
 
     </div>
 
     <container class="container">
+      <form>
       <section class="row d-flex align-items-center justify-content-center ">
         <div class="mb-3 col-lg-10 my-3">
 
@@ -117,13 +119,14 @@
 
         <div class="mb-3 col-lg-10 my-3">
 
-          <button type="button" class="btn bg-oscuro c-claro my-3 px-5 text-uppercase"> enviar </button>
+          <input type="submit" class="btn bg-oscuro c-claro my-3 py-2 px-4">
 
 
         </div>
 
 
       </section>
+    </form>
     </container>
 
 
@@ -131,7 +134,7 @@
 
 
 
-    <footer class="container-fluid bg-oscuro">
+    <footer class="container-fluid bg-oscuro footer-contacto sticky-bottom">
 
       <div class="container px-5">
         <div class="row c-blanco ">
@@ -157,6 +160,11 @@
     </footer>
 
     <script src="js/bootstrap.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
