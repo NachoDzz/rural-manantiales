@@ -52,16 +52,36 @@ body {
   align-items: center; }
   .texto-index .parrafo-index {
     align-items: center;
-    text-align: center;
-    width: 400px;
+    text-align: start;
+    width: 300px;
     padding: 0 0 0;
     margin: 0 0 0;
-    overflow: auto;
-    font-size: 18px; }
+    overflow: hidden;
+    font-size: 1rem; }
 
 .div-apoyo {
   width: 100%;
   height: 84px; }
+
+@media (min-width: 360px) {
+  .texto-index .parrafo-index {
+    width: 340px; } }
+
+@media (min-width: 992px) {
+  .texto-index {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center; }
+    .texto-index .parrafo-index {
+      align-items: center;
+      text-align: start;
+      width: 400px;
+      height: 500px;
+      padding: 0 0 0;
+      margin: 0 0 0;
+      overflow: auto;
+      font-size: 1.2rem; } }
 
 .q-s-tittle h1 {
   text-transform: uppercase;
@@ -141,7 +161,7 @@ body {
   background: url(../img/molduraP.jpg); }
 
 .container-producto .section-producto .item-producto--9 {
-  background: url(../img/puertasP.jpg); }
+  background: url(../img/deckP.jpg); }
 
 .container-servicio .section-servicio .item-servicio {
   height: 170px;

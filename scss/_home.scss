@@ -34,16 +34,47 @@ body {
     align-items: center;
     .parrafo-index{
         align-items: center;
-        text-align: center;
-        width: 400px;
+        text-align: start;
+        width: 300px;
         padding: 0 0 0;
-        margin: 0 0 0;
-        overflow: auto;
-        font-size: 18px;
+        margin: 0 0 0 ;
+        overflow: hidden;
+        font-size: 1rem;
     }
 }
 
 .div-apoyo {
     width: 100%;
     height: 84px;
+}
+
+@media (min-width: 360px) {
+    .texto-index{
+        .parrafo-index{
+
+            width: 340px;
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+    .texto-index {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        .parrafo-index{
+            align-items: center;
+            text-align: start;
+            width: 400px;
+            height: 500px;
+            padding: 0 0 0;
+            margin: 0 0 0 ;
+            overflow: auto;
+            font-size: 1.2rem;
+        }
+    }
+
+
 }
