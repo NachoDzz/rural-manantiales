@@ -1,5 +1,5 @@
 
-$titles: 0.8, 1, 2, 3;
+$titles: 1, 2, 3;
 
 @each $size in $titles {
     .title-#{$size}  {
